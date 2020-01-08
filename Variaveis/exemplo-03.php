@@ -9,7 +9,7 @@ $bloqueado = false;
 
 //////////////////////////////////////////////////////
 
-$frutas = array("abacaxi", "laranja", "manga")
+$frutas = array("abacaxi", "laranja", "manga");
 
 echo $frutas[2];
 
@@ -18,7 +18,7 @@ $nascimento = new DateTime();
 
 //////////////////////////////////////////////////////
 
-$arquivo = fopen("exemplo-03.php");
+$arquivo = fopen("exemplo-03.php", "r");
 //var_dump($arquivo);
 
 $nulo = NULL;
